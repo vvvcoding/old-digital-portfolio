@@ -1,0 +1,85 @@
+.backgroundStuff {
+    background-color: white;
+}
+
+/*header style starts here*/
+.headerStyle {
+    background: blueviolet;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 16px 54px 0 rgba(0, 0, 0, 0.19)
+}
+/*header style ends here*/
+
+/*text styles start here*/
+.titleText {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    padding-bottom: 60px;
+}
+
+.classesListText {
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+/*text styles end here*/
+
+/*box of classes styles start here*/
+.flexParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    border: 3px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+/*box of classes styles end here*/
+
+/*link to class pages styles starts here*/
+ul a {
+    color: white;
+}
+
+ul a:hover {
+    background-color: clear;
+    color: coral;
+}
+/*link to class pages styles end here*/
+
+/*info boxes styles start here*/
+.infoBoxOne {
+    width: 100%;
+    height: 100px;
+    color: coral;
+}
+
+.infoBoxTwo {
+    width: 100%;
+    height: 100px;
+    background-color: coral;
+    text-align: right;
+    color: white;
+}
+/*info boxes styles end here*/
+
+/*info boxes text styles start here*/
+.infoBoxOneText {
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 35px;
+}
+
+.infoBoxTwoText {
+    font-size: 25px;
+    padding-right: 25px;
+    padding-top: 35px;
+}
+/*info boxes text styles end here*/

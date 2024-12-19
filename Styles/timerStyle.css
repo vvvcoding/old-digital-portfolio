@@ -1,0 +1,79 @@
+@import url('panchang.css');
+
+.backgroundStyle {
+    background-color: #b2043e;
+}
+
+.titleStyle {
+    font-size: 50px;
+    font-family: 'Panchang-Semibold';
+    text-align: center;
+    color: white;
+}
+
+.timerStyle {
+    font-size: 400%;
+    font-family: 'Panchang-Semibold';
+    text-align: center;
+    color: white;
+}
+
+.countDownStyle {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Panchang-Semibold';
+}
+
+.inputTimeContainer {
+    display: flex;             /* Use flexbox */
+    align-items: center;       /* Center items horizontally */
+    flex-wrap: wrap;
+    justify-content: center;   /* Center items vertically (if height is defined) */
+    margin: 0 auto;            /* Center the container itself */
+    text-align: center;        /* Center the text within inputs if needed */
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 3% 25px 70px 25px;
+    width: 600px;
+}
+
+.inputTimeBox {
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    border-width: 2px;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    width: 25%;
+    padding: 10px;
+}
+
+.inputTimeContainer input::placeholder {
+    color: white;
+}
+
+.submitButton {
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin-top: 40px;
+    font-family: 'Panchang-Semibold';
+    font-size: 35px;
+    padding: 10px;
+}
+
+.errMsgStyle {
+    text-align: center;
+    font-family: 'Panchang-Bold';
+    font-size: 40px;
+    color: white;
+}

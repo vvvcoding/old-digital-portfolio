@@ -1,0 +1,18 @@
+.backgroundStyle {
+    background-color: darkmagenta;
+}
+
+.titleText {
+    font-size: 30px;
+    font-family: monospace;
+    color: springgreen;
+    text-align: center;
+}
+
+.typeWriterText {
+    font-size: 30px;
+    text-align: center;
+    color: springgreen;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Timer</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../Styles/navbarStyle.css">
+<link rel="stylesheet" href="../Styles/timerStyle.css">
+<link rel="stylesheet" href="../Font Styles/panchang.css">
+<!--Animation Stylesheet: Use the following link to see how to implement-->
+<!--https://animate.style/-->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<body class="backgroundStyle">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="aboutMe.html">About</a></li>
+    </ul>
+    <div class="animate__animated animate__flip"></div>
+        <h1 class="titleStyle">Timers</h1>
+    </div>
+    <h1 id="demo" class="timerStyle"></h1>
+    <div class="inputTimeContainer">
+        <h1 class="countDownStyle">Countdown</h1>
+        <input class="inputTimeBox" type="text" id="monthEntered" placeholder="Month">
+        <input class="inputTimeBox" type="text" id="dayEntered" placeholder="Day">
+        <input class="inputTimeBox" type="text" id="yearEntered" placeholder="Year">
+        <button id="mySubmit" class="submitButton">Create</button>
+    </div>
+    <h1 id="printError" class="errMsgStyle"></h1>
+    
+    <script src="../Scripts/timerInputScript.js"></script>
+    <script src="../Scripts/timerScript.js"></script>
+</body>
+</html>
